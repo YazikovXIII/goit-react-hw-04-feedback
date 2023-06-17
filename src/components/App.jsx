@@ -10,6 +10,7 @@ export const App = () => {
   const [bad, setBad] = useState(0);
 
   const onLeaveFeedback = type => {
+    //Чи це нормально?Чому Е-слінт матюкається?
     // eslint-disable-next-line default-case
     switch (type) {
       case 'good':
